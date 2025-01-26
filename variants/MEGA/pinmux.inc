@@ -325,7 +325,10 @@ const uint16_t P006[] = {
 PIN_ANALOG|CHANNEL_12|LAST_ITEM_GUARD
 
 };
+const uint16_t P008[] = {
 
+
+};
 const uint16_t P007[] = {
 PIN_ANALOG|CHANNEL_13|LAST_ITEM_GUARD
 

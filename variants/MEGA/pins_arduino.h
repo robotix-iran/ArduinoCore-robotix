@@ -110,10 +110,9 @@ static const uint8_t D15 = PIN_D15;
 #define UART2_RX_PIN        0
 #define UART3_TX_PIN        24
 #define UART3_RX_PIN        25
-#define UART4_TX_PIN        57
-#define UART4_RX_PIN        56
-#define UART5_TX_PIN        60
-#define UART5_RX_PIN        59
+#define UART4_TX_PIN        55
+#define UART4_RX_PIN        54
+
 /****** WIRE CORE DEFINES ******/
 
 #define WIRE_HOWMANY      2

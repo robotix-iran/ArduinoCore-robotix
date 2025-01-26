@@ -56,18 +56,20 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_04_PIN_00,    P400   }, /* (26) D26  QWIC SCL */
   { BSP_IO_PORT_04_PIN_01,    P401   }, /* (27) D27  QWIC SDA */
 
- { BSP_IO_PORT_04_PIN_13,    P413   }, /* (28) LCD_MOSI  */
-  { BSP_IO_PORT_04_PIN_14,    P414   }, /* (29) LCD_SCK  */
+   { BSP_IO_PORT_04_PIN_13,    P413   }, /* (28) LCD_MOSI  */
+  { BSP_IO_PORT_04_PIN_15,    P415   }, /* (29) LCD_SCK  */
   { BSP_IO_PORT_04_PIN_08,    P408   }, /* (30) LCD_RESET  */
   { BSP_IO_PORT_04_PIN_12,    P412   }, /* (31) LCD_CS  */
-  { BSP_IO_PORT_04_PIN_15,    P415   }, /* (32) LCD_BKL  */
+  { BSP_IO_PORT_04_PIN_06,    P406   }, /* (32) LCD_BKL  */
 
 
-  { BSP_IO_PORT_03_PIN_07,    P307   }, /* (33) BT2  */
-  { BSP_IO_PORT_03_PIN_06,    P306   }, /* (34) BT3  */
-  { BSP_IO_PORT_03_PIN_05,    P305   }, /* (35) BT4  */
+  { BSP_IO_PORT_03_PIN_07,    P307   }, /* (33) BT1  */
+  { BSP_IO_PORT_03_PIN_06,    P306   }, /* (34) BT2  */
+  { BSP_IO_PORT_03_PIN_05,    P305   }, /* (35) BT3  */
+
   { BSP_IO_PORT_07_PIN_08,    P708   }, /* (36) IO  */
 
+  
   { BSP_IO_PORT_04_PIN_00,    P400   }, /* (37) MPU_SCK  */
   { BSP_IO_PORT_04_PIN_01,    P401   }, /* (38) MPU_SDA  */
 
@@ -78,40 +80,44 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
 
   { BSP_IO_PORT_00_PIN_12,    P012   }, /* (42) IO1*/
   { BSP_IO_PORT_00_PIN_13,    P013   }, /* (43) IO2*/
-  { BSP_IO_PORT_00_PIN_06,    P006   }, /* (44) IO3*/
-  { BSP_IO_PORT_00_PIN_07,    P007   }, /* (45) IO4*/
-  { BSP_IO_PORT_00_PIN_04,    P004   }, /* (46) IO5*/
-  { BSP_IO_PORT_00_PIN_05,    P005   }, /* (47) IO6*/
+  { BSP_IO_PORT_00_PIN_07,    P007   }, /* (44) IO3*/
+  { BSP_IO_PORT_00_PIN_08,    P008   }, /* (45) IO4*/
+  { BSP_IO_PORT_00_PIN_05,    P005   }, /* (46) IO5*/
+  { BSP_IO_PORT_00_PIN_06,    P006   }, /* (47) IO6*/
 
 
   { BSP_IO_PORT_01_PIN_13,    P113   }, /* (48) IO*/
-  { BSP_IO_PORT_01_PIN_14,    P114   }, /* (49) SERVO_PWM_2*/
-  { BSP_IO_PORT_01_PIN_05,    P115   }, /* (50) SERVO_PWM_3*/
-  { BSP_IO_PORT_06_PIN_08,    P608   }, /* (51) SERVO_PWM_4*/
-  { BSP_IO_PORT_06_PIN_09,    P609   }, /* (52) SERVO_PWM_5*/
-  { BSP_IO_PORT_06_PIN_10,    P610   }, /* (53) SERVO_PWM_6*/
-  { BSP_IO_PORT_06_PIN_03,    P603   }, /* (54) SERVO_PWM_7*/
-  { BSP_IO_PORT_06_PIN_00,    P600   }, /* (55) SERVO_PWM_8*/
+
+
+  { BSP_IO_PORT_01_PIN_15,    P115   }, /* (49) SERVO_PWM_1*/
+  { BSP_IO_PORT_01_PIN_14,    P114   }, /* (50) SERVO_PWM_2*/
+  { BSP_IO_PORT_06_PIN_00,    P600   }, /* (51) SERVO_PWM_3*/
+  { BSP_IO_PORT_06_PIN_03,    P603   }, /* (52) SERVO_PWM_4*/
+
+  { BSP_IO_PORT_08_PIN_09,    P809   }, /* (53) Dynamixel_TX_EN*/
+  { BSP_IO_PORT_02_PIN_06,    P206   }, /* (54) MCU_RX_Dynamixel*/
+  { BSP_IO_PORT_02_PIN_05,    P205   }, /* (55) MCU_TX_Dynamixel*/
 
   { BSP_IO_PORT_06_PIN_01,    P601   }, /* (56) IO */
   { BSP_IO_PORT_06_PIN_02,    P602   }, /* (57) IO */
-  { BSP_IO_PORT_08_PIN_08,    P808   }, /* (58) AX18A_TX_EN*/
+  { BSP_IO_PORT_08_PIN_08,    P808   }, /* (58) IO */
 
-  { BSP_IO_PORT_02_PIN_12,    P212   }, /* (59) MCU_RX_RX24F*/
+  { BSP_IO_PORT_02_PIN_12,    P212   }, /* (59) IN1_M4  */
+  
+  
   { BSP_IO_PORT_02_PIN_13,    P213   }, /* (60) IO */
-  { BSP_IO_PORT_08_PIN_09,    P809   }, /* (61) RX24F_TX_EN*/
+  
+  { BSP_IO_PORT_04_PIN_14,    P414   }, /* (61) IN2_M4  */
+  { BSP_IO_PORT_02_PIN_02,    P202   }, /* (62) IN1_M3  */
+  { BSP_IO_PORT_06_PIN_10,    P610   }, /* (63) IN2_M3  */
+  { BSP_IO_PORT_02_PIN_03,    P203   }, /* (64) IN2_M2  */
+  { BSP_IO_PORT_06_PIN_09,    P609   }, /* (65) IN1_M2  */
+  { BSP_IO_PORT_06_PIN_08,    P608   }, /* (66) IN1_M1  */
+  { BSP_IO_PORT_02_PIN_04,    P204   }, /* (67) IN2_M1  */
 
+  { BSP_IO_PORT_04_PIN_04,    P404   }, /* (68) BUZZ  */
 
-  { BSP_IO_PORT_04_PIN_06,    P406   }, /* (62) IN1_M4  */
-  { BSP_IO_PORT_04_PIN_05,    P405   }, /* (63) IN2_M4  */
-  { BSP_IO_PORT_04_PIN_04,    P404   }, /* (64) IN1_M3  */
-  { BSP_IO_PORT_04_PIN_03,    P403   }, /* (65) IN2_M3  */
-  { BSP_IO_PORT_02_PIN_05,    P205   }, /* (66) IN2_M2  */
-  { BSP_IO_PORT_02_PIN_04,    P204   }, /* (67) IN1_M2  */
-  { BSP_IO_PORT_02_PIN_02,    P202   }, /* (68) IN1_M1  */
-  { BSP_IO_PORT_02_PIN_03,    P203   }, /* (69) IN2_M1  */
-
-  { BSP_IO_PORT_04_PIN_09,    P409   }, /* (70) BUZZ  */
+  { BSP_IO_PORT_04_PIN_09,    P409   }, /* (69) BT4  */
 
 };
 
@@ -175,8 +181,4 @@ void initVariant() {
   FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(9, PIN_CFG_REQ_PWM)[0]));
   FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(10, PIN_CFG_REQ_PWM)[0]));
   FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(11, PIN_CFG_REQ_PWM)[0]));
-  
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(68, PIN_CFG_REQ_PWM)[0]));
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(69, PIN_CFG_REQ_PWM)[0]));
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(70, PIN_CFG_REQ_PWM)[0]));
 }
