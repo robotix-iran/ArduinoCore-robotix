@@ -276,7 +276,11 @@ void FspTimer::enable_pwm_channel(TimerPWMChannel_t pwm_channel) {
         if(pwm_channel == CHANNEL_A) {
             gpt_timer->ext_cfg.gtioca.output_enabled = true;
         } 
+        else if(pwm_channel == CHANNEL_B) {
+            gpt_timer->ext_cfg.gtiocb.output_enabled = true;
+        }
         else {
+            gpt_timer->ext_cfg.gtioca.output_enabled = true;
             gpt_timer->ext_cfg.gtiocb.output_enabled = true;
         }
     }

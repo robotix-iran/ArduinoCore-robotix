@@ -21,7 +21,8 @@ typedef enum {
 
 typedef enum {
   CHANNEL_A,
-  CHANNEL_B
+  CHANNEL_B,
+  CHANNEL_AB
 } TimerPWMChannel_t;
 
 
