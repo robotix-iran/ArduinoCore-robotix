@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.inc": "cpp",
+        "array": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xutility": "cpp",
+        "algorithm": "cpp",
+        "optional": "cpp",
+        "xtr1common": "cpp"
+    }
+}
