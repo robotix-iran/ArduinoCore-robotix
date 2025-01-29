@@ -103,7 +103,7 @@ static const uint8_t D15 = PIN_D15;
 
 /****** UART CORE DEFINES ******/
 
-#define SERIAL_HOWMANY		5
+#define SERIAL_HOWMANY		4
 #define UART1_TX_PIN        22
 #define UART1_RX_PIN        23
 #define UART2_TX_PIN        1
