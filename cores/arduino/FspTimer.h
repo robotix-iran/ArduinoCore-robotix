@@ -174,6 +174,7 @@ class FspTimer {
     bool set_pulse_ms(double ms,TimerPWMChannel_t pwm_ch);
     bool set_pulse_us(double us,TimerPWMChannel_t pwm_ch);
 
+    static int8_t get_timer_status(uint8_t type, uint8_t channel);
     static int8_t get_available_timer(uint8_t &type, bool force = false); 
     static void force_use_of_pwm_reserved_timer() {FspTimer::force_pwm_reserved = true; }
 };

@@ -127,6 +127,24 @@ bool FspTimer::begin(timer_mode_t mode, uint8_t tp, uint8_t channel, uint32_t pe
     return init_ok;
 }
 
+/* -------------------------------------------------------------------------- */
+int8_t FspTimer::get_timer_status(uint8_t type, uint8_t channel) {
+/* -------------------------------------------------------------------------- */
+  int8_t rv = -1;
+
+  if (type == GPT_TIMER) {
+    if (gpt_used_channel[channel] == TIMER_FREE) {
+      return 1;
+    }
+  }
+
+  if (type == AGT_TIMER) {
+    if (agt_used_channel[channel] == TIMER_FREE) {
+      return 1;
+    }
+  }
+  return -1;
+}
 
 
 /* -------------------------------------------------------------------------- */
