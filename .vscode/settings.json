@@ -9,6 +9,11 @@
         "xutility": "cpp",
         "algorithm": "cpp",
         "optional": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "compare": "cpp",
+        "xmemory": "cpp",
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "vector": "cpp"
     }
 }
