@@ -22,6 +22,8 @@ mega.upload_port.0.pid=0x1000
 mega.upload_port.1.vid=0x2342
 mega.upload_port.1.pid=0x0060
 
+mega.compiler.preclibs="{build.variant.path}/libs/libmega.a"
+
 mega.compiler.fsp.defines={build.variant.path}/defines.txt
 mega.compiler.fsp.ldflags={build.variant.path}/ldflags.txt
 mega.compiler.fsp.cflags=-mthumb "@{compiler.fsp.defines}"
