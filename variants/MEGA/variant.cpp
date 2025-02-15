@@ -89,10 +89,10 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_01_PIN_13,    P113   }, /* (48) IO*/
 
 
-  { BSP_IO_PORT_01_PIN_15,    P115   }, /* (49) SERVO_PWM_1*/
-  { BSP_IO_PORT_01_PIN_14,    P114   }, /* (50) SERVO_PWM_2*/
-  { BSP_IO_PORT_06_PIN_00,    P600   }, /* (51) SERVO_PWM_3*/
-  { BSP_IO_PORT_06_PIN_03,    P603   }, /* (52) SERVO_PWM_4*/
+  { BSP_IO_PORT_01_PIN_14,    P114   }, /* (49) SERVO_PWM_1*/
+  { BSP_IO_PORT_02_PIN_04,    P204   }, /* (50) SERVO_PWM_2*/
+  { BSP_IO_PORT_01_PIN_15,    P115   }, /* (51) SERVO_PWM_3*/
+  { BSP_IO_PORT_06_PIN_08,    P608   }, /* (52) SERVO_PWM_4*/
 
   { BSP_IO_PORT_08_PIN_09,    P809   }, /* (53) Dynamixel_TX_EN*/
   { BSP_IO_PORT_02_PIN_06,    P206   }, /* (54) MCU_RX_Dynamixel*/
@@ -110,10 +110,10 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_04_PIN_14,    P414   }, /* (61) M4_IN2  */
   { BSP_IO_PORT_02_PIN_02,    P202   }, /* (62) M3_IN1  */
   { BSP_IO_PORT_06_PIN_10,    P610   }, /* (63) M3_IN2  */
-  { BSP_IO_PORT_02_PIN_03,    P203   }, /* (64) M2_IN2  */
-  { BSP_IO_PORT_06_PIN_09,    P609   }, /* (65) M2_IN1  */
-  { BSP_IO_PORT_06_PIN_08,    P608   }, /* (66) M1_IN1  */
-  { BSP_IO_PORT_02_PIN_04,    P204   }, /* (67) M1_IN2  */
+  { BSP_IO_PORT_06_PIN_03,    P603   }, /* (64) M2_IN2  */
+  { BSP_IO_PORT_06_PIN_00,    P600   }, /* (65) M2_IN1  */
+  { BSP_IO_PORT_06_PIN_09,    P609   }, /* (66) M1_IN1  */
+  { BSP_IO_PORT_02_PIN_03,    P203   }, /* (67) M1_IN2  */
 
   { BSP_IO_PORT_04_PIN_04,    P404   }, /* (68) BUZZ  */
 
@@ -182,20 +182,20 @@ void initVariant() {
   FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(10, PIN_CFG_REQ_PWM)[0]));
   FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(11, PIN_CFG_REQ_PWM)[0]));
 
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(32, PIN_CFG_REQ_PWM)[0])); // LCD_BKL
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(32, PIN_CFG_REQ_PWM)[0])); // LCD_BKL
 
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(49, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_1
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(50, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_2
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(51, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_3
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(52, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_4
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(49, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_1
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(50, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_2
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(51, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_3
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(52, PIN_CFG_REQ_PWM)[0])); // SERVO_PWM_4
 
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(59, PIN_CFG_REQ_PWM)[0])); // IN1_M4
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(61, PIN_CFG_REQ_PWM)[0])); // IN2_M4
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(62, PIN_CFG_REQ_PWM)[0])); // IN1_M3
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(63, PIN_CFG_REQ_PWM)[0])); // IN2_M3
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(64, PIN_CFG_REQ_PWM)[0])); // IN2_M2
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(65, PIN_CFG_REQ_PWM)[0])); // IN1_M2
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(66, PIN_CFG_REQ_PWM)[0])); // IN1_M1
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(67, PIN_CFG_REQ_PWM)[0])); // IN2_M1
-  FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(68, PIN_CFG_REQ_PWM)[0])); // BUZZ
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(59, PIN_CFG_REQ_PWM)[0])); // IN1_M4
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(61, PIN_CFG_REQ_PWM)[0])); // IN2_M4
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(62, PIN_CFG_REQ_PWM)[0])); // IN1_M3
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(63, PIN_CFG_REQ_PWM)[0])); // IN2_M3
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(64, PIN_CFG_REQ_PWM)[0])); // IN2_M2
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(65, PIN_CFG_REQ_PWM)[0])); // IN1_M2
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(66, PIN_CFG_REQ_PWM)[0])); // IN1_M1
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(67, PIN_CFG_REQ_PWM)[0])); // IN2_M1
+  // FspTimer::set_initial_timer_channel_as_pwm(GPT_TIMER, GET_CHANNEL(getPinCfgs(68, PIN_CFG_REQ_PWM)[0])); // BUZZ
 }
