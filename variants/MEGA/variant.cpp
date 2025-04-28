@@ -101,12 +101,10 @@ extern "C" const PinMuxCfg_t g_pin_cfg[] = {
   { BSP_IO_PORT_06_PIN_01,    P601   }, /* (56) IO */
   { BSP_IO_PORT_06_PIN_02,    P602   }, /* (57) IO */
   { BSP_IO_PORT_08_PIN_08,    P808   }, /* (58) IO */
+  { BSP_IO_PORT_02_PIN_13,    P213   }, /* (59) IO */
 
-  { BSP_IO_PORT_02_PIN_12,    P212   }, /* (59) M4_IN1  */
-  
-  
-  { BSP_IO_PORT_02_PIN_13,    P213   }, /* (60) IO */
-  
+
+  { BSP_IO_PORT_02_PIN_12,    P212   }, /* (60) M4_IN1  */
   { BSP_IO_PORT_04_PIN_14,    P414   }, /* (61) M4_IN2  */
   { BSP_IO_PORT_02_PIN_02,    P202   }, /* (62) M3_IN1  */
   { BSP_IO_PORT_06_PIN_10,    P610   }, /* (63) M3_IN2  */
