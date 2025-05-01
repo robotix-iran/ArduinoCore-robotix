@@ -1,4 +1,4 @@
-:floppy_disk: `bootloaders/ROBOTIX_MEGA`
+:floppy_disk: `bootloaders/ROBOTIX_INNOBOT`
 ====================================
 
 :rescue_worker_helmet: `How to update ESP32-S3 firmware`
@@ -18,7 +18,7 @@ Then run
 idf.py -p $portname flash
 ```
 
-:rocket: `How to load bootloader (ROBOTIX_MEGA)`
+:rocket: `How to load bootloader (ROBOTIX_INNOBOT)`
 ====================================
 
 Once the bridge is up and running, it will respond to two peculiar baud rates:
@@ -32,5 +32,5 @@ stty -F $portname 2400
 
 Then flash the bootloader with [`rfp-cli`](https://www.renesas.com/us/en/software-tool/renesas-flash-programmer-programming-gui#download)
 ```
-rfp-cli -device ra -dtr -port $portname -p ROBOTIX_MEGA.hex
+rfp-cli -device ra -dtr -port $portname -p ROBOTIX_INNOBOT.hex
 ```

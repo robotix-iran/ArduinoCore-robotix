@@ -166,7 +166,7 @@ static const uint8_t SS  =  PIN_SPI_CS;
 
 #define USB_VID           (0x2342)
 #define USB_PID           (0x0060)
-#define USB_NAME          "Robotix Mega"
+#define USB_NAME          "Robotix InnoBot"
 
 #define VUSB_LDO_ENABLE     1
 
