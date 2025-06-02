@@ -12,7 +12,7 @@ innobot.build.fpu=-mfpu=fpv4-sp-d16
 innobot.build.float-abi=-mfloat-abi=hard
 
 innobot.build.board=innobot
-innobot.build.defines=-DF_CPU=48000000 -DNO_USB -DBACKTRACE_SUPPORT -DROBOTIX_innobot -DARDUINO_UNOR4_WIFI
+innobot.build.defines=-DF_CPU=48000000 -DNO_USB -DBACKTRACE_SUPPORT -DROBOTIX_INNOBOT -DARDUINO_UNOR4_WIFI
 innobot.vid.0=0x2342
 innobot.pid.0=0x1000
 innobot.vid.1=0x2342
