@@ -1,0 +1,605 @@
+{
+  "packages": [
+    {
+      "name": "RobotixControllers",
+      "maintainer": "Robotix",
+      "websiteURL": "http://robotexiran.com/",
+      "email": "mahdi2001h@gmail.com",
+      "help": {
+        "online": "mahdi2001h.ir"
+      },
+      "platforms": [
+        {
+        "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.6.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.6.0/ArduinoCore-robotix-0.6.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.6.0.zip",
+          "checksum": "SHA-256:d703e5740a7e8a00564ee0c534a960da72b862b5938d032d2addbae2448eadc6",
+          "size": "23995476",
+          "boards": [
+            {
+              "name": "Robotix InnoBot"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+      },
+        {
+        "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.5.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.5.0/ArduinoCore-robotix-0.5.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.5.0.zip",
+          "checksum": "SHA-256:b48cce18a9995783a8a16c857249ae84aea4a82ccbd1878570db50f81186b8a5",
+          "size": "24267993",
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+      },
+        {
+        "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.4.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.4.0/ArduinoCore-robotix-0.4.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.4.0.zip",
+          "checksum": "SHA-256:e2b824a53546b447e95435f7c5ad2dd9aaa0da2f889e658f392f6420051a39db",
+          "size": "24230353",
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+      },
+        {
+        "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.3.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.3.0/ArduinoCore-robotix-0.3.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.3.0.zip",
+          "checksum": "SHA-256:be72f2a8b783d56538bd87b0d779943ddae4f94400eb18f6dc5e396d32ac369b",
+          "size": "24096348",
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+        },
+        {
+          "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.2.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.2.0/ArduinoCore-robotix-0.2.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.2.0.zip",
+          "checksum": "SHA-256:5a2b01634e8fcd11e01bf351f156bd8b8c5d9c2c3c8e3078d2028fb38a15a652",
+          "size": "22528867",
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+        },
+        {
+          "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.1.3",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v0.1.3/ArduinoCore-robotix-0.1.3.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.1.3.zip",
+          "checksum": "SHA-256:9d334d57599803576e7b87d906a374b280236182c5f4aa036406200f827a9b38",
+          "size": "20954839",
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+        },
+        {
+          "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "0.1.0",
+          "category": "Robotix",
+          "url": "https://mahdi2001h.ir/downloads/staging/ArduinoCore-robotix-0.1.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-0.1.0.zip",
+          "checksum": "SHA-256:d1bcc16274e67422dcc5fe61cf3436e1e54bde52ee39ea16d3281f4d4aaae27d",
+          "size": "21458613",
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "boards": [
+            {
+              "name": "Robotix Mega"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "arm-none-eabi-gcc",
+          "version": "7-2017q4",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linuxarm64.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linuxarm64.tar.bz2",
+              "checksum": "SHA-256:6fb5752fb4d11012bd0a1ceb93a19d0641ff7cf29d289b3e6b86b99768e66f76",
+              "size": "99558726"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2019-q4-major-linuxarm.tar.bz2",
+              "checksum": "SHA-256:34180943d95f759c66444a40b032f7dd9159a562670fc334f049567de140c51b",
+              "size": "96613739"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2017-q4-major-win32-arduino1.zip",
+              "archiveFileName": "gcc-arm-none-eabi-7-2017-q4-major-win32-arduino1.zip",
+              "checksum": "SHA-256:96dd0091856f4d2eb21046eba571321feecf7d50b9c156f708b2a8b683903382",
+              "size": "131761924"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
+              "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
+              "size": "97427309"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2017-q4-major-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2017-q4-major-mac.tar.bz2",
+              "checksum": "SHA-256:89b776c7cf0591c810b5b60067e4dc113b5b71bc50084a536e71b894a97fdccb",
+              "size": "104550003"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/gcc-arm-none-eabi-7-2017-q4-major-linux64.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-7-2017-q4-major-linux64.tar.bz2",
+              "checksum": "SHA-256:96a029e2ae130a1210eaa69e309ea40463028eab18ba19c1086e4c2dafe69a6a",
+              "size": "99857645"
+            }
+          ]
+        },
+        {
+          "name": "bossac",
+          "version": "1.9.1-arduino5",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linuxaarch64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-linuxaarch64.tar.gz",
+              "checksum": "SHA-256:f91dbbe90d57dd8074cd9b0ca7a2f5d41ee71bdf15e9bfd68bf2048a08e4a286",
+              "size": "442901"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linuxarm.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-linuxarm.tar.gz",
+              "checksum": "SHA-256:a0680ac5067ca8134f28fd7f86320d4c3099c782cefecd2e9b1edfde57f5947b",
+              "size": "362365"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-osx.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-osx.tar.gz",
+              "checksum": "SHA-256:c76eae00874a44265029b452303fb355e9ffa006e7ba214ca7ae01b1416867da",
+              "size": "47862"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linux32.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-linux32.tar.gz",
+              "checksum": "SHA-256:d9c7ddab312bfc330ed7a98916ffa2c7a9c44798863ce1f4467fb240abc1830a",
+              "size": "385086"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-windows.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-windows.tar.gz",
+              "checksum": "SHA-256:99e1982cf29600152e1c89b3389c1b4ce853201491ed52a12b4a327200cc6af0",
+              "size": "1260650"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino5-linux64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino5-linux64.tar.gz",
+              "checksum": "SHA-256:ef80d247c431db2686a3e6728cb4897b708b92cd67687100c125684f3c12fc80",
+              "size": "399674"
+            }
+          ]
+        },
+        {
+          "name": "dfu-util",
+          "version": "0.11.0-arduino5",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_arm64.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-linux_arm64.tar.gz",
+              "checksum": "SHA-256:b3f46a65da0c2fed2449dc5a3351c3c74953a868aa7f8d99ba2bb8c418344fe9",
+              "size": "2607592"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_arm.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-linux_arm.tar.gz",
+              "checksum": "SHA-256:acd4bd283fd408515279a44dd830499ad37b0767e8f2fde5c27e878ded909dc3",
+              "size": "2512819"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-darwin_amd64.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-darwin_amd64.tar.gz",
+              "checksum": "SHA-256:9e576c6e44f54b1e921a43ea77bcc08ec99e0e4e0905f4b9acf9ab2c979f0a22",
+              "size": "72429"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_386.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-linux_386.tar.gz",
+              "checksum": "SHA-256:9a707692261e5710ed79a6d8a4031ffd0bfe1e585216569934346e9b2d68d0c2",
+              "size": "2524406"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-windows_386.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-windows_386.tar.gz",
+              "checksum": "SHA-256:6451e16bf77600fe2436c8708ab4b75077c49997cf8bedf03221d9d6726bb641",
+              "size": "571340"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11-arduino5-linux_amd64.tar.gz",
+              "archiveFileName": "dfu-util-0.11-arduino5-linux_amd64.tar.gz",
+              "checksum": "SHA-256:96c64c278561af806b585c123c85748926ad02b1aedc07e5578ca9bee2be0d2a",
+              "size": "2283425"
+            }
+          ]
+        },
+        {
+          "name": "dfu-util",
+          "version": "0.11.0-arduino2",
+          "systems": [
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-arm64.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-arm64.tar.bz2",
+              "checksum": "SHA-256:fc2fd50397b5e23d552424bf6fbdd38c970fd58b2d2ac11f2395c3e3b7228cee",
+              "size": "282570"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-arm.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-arm.tar.bz2",
+              "checksum": "SHA-256:63bbddbdab6889c925d6f9535c92f0ba5fbd58d4e5e03d32cb43b91ef44bf277",
+              "size": "285451"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-osx.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-osx.tar.bz2",
+              "checksum": "SHA-256:8a01eb2238962e42db6dc476a6c1ec204a8670b2f3c9f6784c69e6cb981fd938",
+              "size": "72590"
+            },
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-linux32.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-linux32.tar.bz2",
+              "checksum": "SHA-256:f6c39d312b0c70efc66c5439a3f95c08006eb7639c1205805175cc85a3725564",
+              "size": "76696"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-windows.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-windows.tar.bz2",
+              "checksum": "SHA-256:3ddc85d1dd0195bc88a45d7a1a82c8b4e1952923ef39f89e13645226f0294da8",
+              "size": "634198"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/dfu-util-0.11.0-arduino2-linux64.tar.bz2",
+              "archiveFileName": "dfu-util-0.11.0-arduino2-linux64.tar.bz2",
+              "checksum": "SHA-256:bbfecff5e59c70f436777bd2ea4732708d34f0611634f386d29964692b87db2f",
+              "size": "76662"
+            }
+          ]
+        },
+        {
+          "name": "dfu-discovery",
+          "version": "0.1.2",
+          "systems": [
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_ARMv6.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_Linux_ARMv6.tar.gz",
+              "checksum": "SHA-256:91eb2e0e7c09c2080999d308b732b30486d34b6459ce30569c73d7ef0e59d640",
+              "size": 1620739
+            },
+            {
+              "host": "arm64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_macOS_ARM64.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_macOS_ARM64.tar.gz",
+              "checksum": "SHA-256:50e04bf5d5aa2257a8029f9f4b52893e90272cd747c1059277708cb5eb0e5524",
+              "size": 1816821
+            },
+            {
+              "host": "arm64-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_ARM64.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_Linux_ARM64.tar.gz",
+              "checksum": "SHA-256:4bda54b9031d5b1fb1af70d1c38bf1b1f8cfd0eb0cd81f6c3a43253c31dea92d",
+              "size": 1617881
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Windows_32bit.zip",
+              "archiveFileName": "dfu-discovery_v0.1.2_Windows_32bit.zip",
+              "checksum": "SHA-256:eac23fa581431161ddfbbd66a911d1e30b6f582eeb70f5165f2b92ad92a18a93",
+              "size": 2235781
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_32bit.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_Linux_32bit.tar.gz",
+              "checksum": "SHA-256:64284465450f437fb3124c1950bd66ead0ab0023dcd5799ea925616a1667bd83",
+              "size": 1573941
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_macOS_64bit.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_macOS_64bit.tar.gz",
+              "checksum": "SHA-256:7f22774d925a014d51b6e997e25dc78a721db91b67225263fbcb3de265209f25",
+              "size": 1895874
+            },
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Windows_64bit.zip",
+              "archiveFileName": "dfu-discovery_v0.1.2_Windows_64bit.zip",
+              "checksum": "SHA-256:5ef334c4d566b0033c229c28b2b401bc98bad70d5c25e3027c038aa3cde0d10f",
+              "size": 2282491
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/discovery/dfu-discovery/dfu-discovery_v0.1.2_Linux_64bit.tar.gz",
+              "archiveFileName": "dfu-discovery_v0.1.2_Linux_64bit.tar.gz",
+              "checksum": "SHA-256:d82649741fd6cbe369d7fe22d290efd7e28e4d6fd0b81b7b1eabff43b495b5f8",
+              "size": 1731768
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
