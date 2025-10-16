@@ -9,6 +9,54 @@
         "online": "mahdi2001h.ir"
       },
       "platforms": [
+	    {
+        "name": "RobotixControllers",
+          "architecture": "renesas",
+          "version": "1.0.0",
+          "deprecated": false,
+          "category": "Robotix",
+          "url": "https://github.com/robotix-iran/ArduinoCore-robotix/releases/download/v1.0.0/ArduinoCore-robotix-1.0.0.zip",
+          "archiveFileName": "ArduinoCore-robotix-1.0.0.zip",
+          "checksum": "SHA-256:a8c6aedf4a70fa31fec6a5b73867baeadac8936908a4fa82b86b8ef265853bb6",
+          "size": "24013713",
+          "boards": [
+            {
+              "name": "Robotix InnoBot"
+            }
+          ],
+          "help": {
+            "online": "http://robotexiran.com"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.9.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "dfu-util",
+              "version": "0.11.0-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "packager": "builtin",
+              "name": "dfu-discovery"
+            }
+          ],
+          "monitorDependencies": []
+		},
         {
         "name": "RobotixControllers",
           "architecture": "renesas",
@@ -56,7 +104,7 @@
             }
           ],
           "monitorDependencies": []
-      },
+		},
         {
         "name": "RobotixControllers",
           "architecture": "renesas",
